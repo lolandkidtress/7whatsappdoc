@@ -3,7 +3,7 @@ export default {
   project: {
     link: "https://github.com/lolandkidtress/7whatsapp-lib/blob/main/latest/7-whatsapp-win32-x64-latest.exe",
   },
-  // 基础配置
+  // 基础 SEO 配置
   useNextSeoProps() {
     return {
       titleTemplate: "%s – 7WhatsApp",
@@ -22,18 +22,14 @@ export default {
   navigation: true,
   // 页脚配置
   footer: {
-    text: `${new Date().getFullYear()} © 7WhatsApp.All Rights Reserved.`,
+    text: `© ${new Date().getFullYear()} 7WhatsApp. All Rights Reserved.`,
   },
-  // 主题配置
-  primaryHue: {
-    dark: 204,
-    light: 204,
-  },
-  // 禁用反馈链接
+  // 主题颜色配置
+  primaryHue: 204,
+  // 禁用反馈和编辑链接
   feedback: {
     content: null,
   },
-  // 禁用编辑链接
   editLink: {
     component: null,
   },
